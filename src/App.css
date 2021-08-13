@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+.logout-wrapper {
+  width: 512px;
+  height: 512px;
+  position: relative;
+  cursor: pointer;
+}
+
+.logout-text {
+  position: absolute;
+  color: #fff;
+  font-size: 2.5em;
+  font-weight: bold;
+  left: 50%;
+  top: 46%;
+  transform: translate(-50%, -50%);
+}
+
+.video-container, .youtube {
+  width: 100%;
+  height: 100vh;
+}
